@@ -1,0 +1,34 @@
+<template>
+  <div class="flex border-b justify-between w-full border-gray">
+    <div class="p-1 mt-16">
+      <div class="text-4xl leading-none font-light">Hello, I'm</div>
+      <div class="text-6xl leading-tight">Roman Turaj</div>
+      <div class="text-3xl leading-snug font-light">Fullstack Developer</div>
+      <icons />
+      <div class="flex">
+        <btn class="mr-2"> MEET ME </btn>
+        <btn mode="secondary" class="mr-2"> GET MY RESUME </btn>
+      </div>
+    </div>
+    <div class="img-bg bg-gray mt-32">
+      <img src="/intro.png" class="-mt-32" />
+    </div>
+  </div>
+</template>
+
+<script>
+import Icons from './Icons'
+import Btn from '@/components/ui/Btn'
+export default {
+  components: {
+    Icons,
+    Btn,
+  },
+}
+</script>
+
+<style scoped>
+.img-bg {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+</style>
