@@ -10,6 +10,7 @@
       top-0
       bg-white
       border-b border-gray
+      z-50
     "
   >
     <logo />

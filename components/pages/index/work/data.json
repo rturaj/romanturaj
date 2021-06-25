@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Luvli.pl",
+    "url": "https://luvli.pl/",
+    "img": "/luvli.png",
+    "description": "The e-commerce platform for ordering personalized jewelry. Backend managing offers, orders and integrations with external services such as payments and shipment, admin dashboard and client website.",
+    "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, TailwindCSS, Vuetify",
+    "rate": 8,
+    "categories": ["public"]
+  },
+  {
+    "title": "Auroria.pl",
+    "url": "https://auroria.pl/",
+    "img": "/auroria.png",
+    "description": "The most complex project I've ever made. E-commerce ecosystem including backend microservices for managing warehouse, orders, offers, 3D configurator, post-sales, blog, authorization and frontend apps - admin dashboard and client website.",
+    "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, TailwindCSS, Vuetify, Three.js",
+    "rate": 10,
+    "categories": ["public"]
+  },
+  {
+    "title": "Ringeo.pl",
+    "url": "https://ringeo.pl/",
+    "img": "/ringeo.png",
+    "description": "The comparision tool for engagement rings selling by Polish jewelers. Backend including scrapping from jewelery websites and searching offers + client website.",
+    "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, Vuetify",
+    "rate": 7,
+    "categories": ["public"]
+  },
+  {
+    "title": "Healthcare Hireos",
+    "url": "https://github.com/healthcare-hireos",
+    "img": "/healthcare-hireos.png",
+    "description": "The thesis project. The hiring platform for healthcare workers using location presentation on the maps. Including REST API, admin dashboard and client website. The project was published on Github.",
+    "tools": "Node.js, Typescript, Nest.js, TypeORM, PostgreSQL, Next.js, TailwindCSS, MaterialUI",
+    "rate": 7,
+    "categories": ["open-source"]
+  },
+  {
+    "title": "Piamarket.sk",
+    "url": "https://piamarket.sk/",
+    "img": "/piamarket.png",
+    "description": "The frontend of automotive marketplace for used cars including presentation and searching of cars offers. Prepared for Porsche Interauto Slovakia.",
+    "tools": "Nuxt.js, SCSS",
+    "rate": 5,
+    "categories": ["public"]
+  },
+  {
+    "title": "Tikitaka.pl",
+    "url": "https://tikitaka.pl/",
+    "img": "/tikitaka.png",
+    "description": "The frontend of booking system for ski trips including presentation of hotels, ski resorts, additional services.",
+    "tools": "Vue.js, SCSS",
+    "rate": 4,
+    "categories": ["public"]
+  }
+]

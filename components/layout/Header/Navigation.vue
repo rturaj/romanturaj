@@ -34,13 +34,14 @@ export default {
           label: 'intro',
           to: 'intro',
         },
-        {
-          label: 'about',
-          to: 'about',
-        },
+
         {
           label: 'work',
           to: 'work',
+        },
+        {
+          label: 'about',
+          to: 'about',
         },
         {
           label: 'testimonials',

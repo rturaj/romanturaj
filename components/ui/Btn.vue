@@ -1,5 +1,7 @@
 <template>
-  <button href="" :class="btnClass"><slot /></button>
+  <button :href="href" :class="btnClass" @click="$emit('click')">
+    <slot />
+  </button>
 </template>
 
 <script>
@@ -8,14 +10,18 @@ export default {
     mode: {
       default: 'primary',
     },
+    href: {},
   },
   computed: {
     btnClass() {
+      let result =
+        'px-8 py-2 rounded-full transition duration-300 ease-in-out border focus:outline-none '
       if (this.mode === 'primary') {
-        return ' bg-black rounded-full font-bold text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-white hover:text-black border'
+        result += 'bg-black text-white'
       } else {
-        return ' rounded-full font-bold text-black px-8 py-2 transition duration-300 ease-in-out hover:bg-black hover:text-white border'
+        result += 'text-black  hover:bg-black hover:text-white'
       }
+      return result
     },
   },
 }
