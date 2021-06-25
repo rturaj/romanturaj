@@ -27,8 +27,4 @@ export default {
 }
 </script>
 
-<style scoped>
-.img-bg {
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-}
-</style>
+<style></style>
