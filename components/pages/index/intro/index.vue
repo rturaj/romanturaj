@@ -7,7 +7,7 @@
       <icons />
       <div class="flex">
         <btn class="mr-2 font-bold"> MEET ME </btn>
-        <btn mode="secondary" class="mr-2"> GET MY RESUME </btn>
+        <btn mode="secondary" class="mr-2 font-bold"> GET MY RESUME </btn>
       </div>
     </div>
     <div class="img-bg bg-gray mt-32">

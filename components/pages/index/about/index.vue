@@ -1,6 +1,6 @@
 <template>
-  <section class="p-8">
-    <h2 class="text-3xl leading-snug font-light text-center pb-4">ABOUT ME</h2>
+  <section class="p-8 border-b border-gray">
+    <h2 class="text-3xl leading-snug font-light text-center pb-4">About me</h2>
     <div class="flex justify-between my-8 items-center">
       <!-- <div style="min-width: 50%">
         <img src="/about.png" class="rounded-3xl" />

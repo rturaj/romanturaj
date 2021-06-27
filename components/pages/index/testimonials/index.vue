@@ -1,7 +1,7 @@
 <template>
   <section class="p-8 border-gray border-b">
     <h2 class="text-3xl leading-snug font-light text-center pb-8">
-      TESTIMONIALS
+      Testimonials
     </h2>
     <div class="flex flex-wrap">
       <item v-for="item in items" :key="item.title" :item="item" />

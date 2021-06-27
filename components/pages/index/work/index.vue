@@ -1,6 +1,6 @@
 <template>
   <section class="p-8 border-gray border-b">
-    <h2 class="text-3xl leading-snug font-light text-center pb-8">WORK</h2>
+    <h2 class="text-3xl leading-snug font-light text-center pb-8">Work</h2>
     <div class="flex flex-wrap">
       <item v-for="item in items" :key="item.title" :item="item" />
     </div>
