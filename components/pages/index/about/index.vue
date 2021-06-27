@@ -28,7 +28,7 @@
           On the backend I use <strong>Node.js</strong> and its frameworks -
           <strong>Express.js</strong>, <strong>Nest.js</strong> and
           <strong>Serverless</strong>. I know relational databases such as
-          <strong>MySQL</strong>, <strong>PostreSQL</strong> and non-relational
+          <strong>MySQL</strong>, <strong>PostgreSQL</strong> and non-relational
           - <strong>MongoDB</strong>. To work with them I use ORMs -
           <strong>Sequelize</strong>, <strong>TypeORM</strong> and ODM -
           <strong>Mongoose</strong>. I use <strong>Jest.js</strong> for testing,

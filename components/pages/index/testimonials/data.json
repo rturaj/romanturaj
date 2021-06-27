@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Waldemar Krankiewicz",
+    "position": "CEO at Webwizards",
+    "content": "Roman is a very ambitious developer who has made impressive progress during his 2 years period of work at WEBWIZARDS. He completes all tasks properly, he is good at teamwork and he always is ready for new challenges. Roman is both an efficient employee and a good colleague.",
+    "img": "/w_krankiewicz.jpg",
+    "rate": 8
+  },
+  {
+    "name": "Pawel Podjacki",
+    "position": "Project Manager at ADVOX Studio",
+    "content": "I had a pleasure to cooperate with Roman for almost a year organising Ecommerce Warsaw EXPO. At that time Roman was a hard working Event Manager, aspiring (successfully) to gain experience, looking for his own way in professional life. Although still learning, I could have always depend on him, knowing that the the delegated task shall be accomplished with his best knowledge. Also, what is even more important, if he needed assistance he always asked for it, willing to learn new skills.",
+    "img": "/p_podjacki.jpg",
+    "rate": 2
+  },
+  {
+    "name": "Jakub Karpisiak",
+    "position": "Frontend Developer at intive",
+    "content": "Roman really knows how to work with a team. His strong self-motivation and learning capabilities make him a great developer to work with.",
+    "img": "/j_karpisiak.jpg",
+    "rate": 1
+  }
+]

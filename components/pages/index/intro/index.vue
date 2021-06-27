@@ -6,7 +6,7 @@
       <h2 class="text-3xl leading-snug font-light">Fullstack Developer</h2>
       <icons />
       <div class="flex">
-        <btn class="mr-2"> MEET ME </btn>
+        <btn class="mr-2 font-bold"> MEET ME </btn>
         <btn mode="secondary" class="mr-2"> GET MY RESUME </btn>
       </div>
     </div>
