@@ -29,6 +29,7 @@
       </div>
     </div>
     <div
+      v-if="item.url"
       class="
         absolute
         top-0

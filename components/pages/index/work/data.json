@@ -52,5 +52,32 @@
     "tools": "Vue.js, SCSS",
     "rate": 4,
     "categories": ["public"]
+  },
+  {
+    "title": "Audi Sales App",
+    "url": null,
+    "img": "/audi.png",
+    "description": "The frontend of internal app for Audi to managing sales of new cars in Poland. Based on data modification by spreadsheets rendered in the browser.",
+    "tools": "Vue.js, SCSS",
+    "rate": 3,
+    "categories": ["private"]
+  },
+  {
+    "title": "VGP Training App",
+    "url": null,
+    "img": "/vgp.jpg",
+    "description": "The internal system for Volkswagen Group Poland to conducting interactive trainings for car dealers. During driving cars they have to answer question and complete tasks. I've made admin dashboard of this system.",
+    "tools": "Vue.js, SCSS",
+    "rate": 3,
+    "categories": ["private"]
+  },
+  {
+    "title": "VGP Training Academy platform",
+    "url": null,
+    "img": "/pas.png",
+    "description": "The support of creating frontend one of the key apps of Volkswagen Group Poland - 'Training Academy platform' - the app for managing the employee development process. ",
+    "tools": "Vue.js, SCSS",
+    "rate": 2,
+    "categories": ["private"]
   }
 ]
