@@ -18,6 +18,17 @@ module.exports = {
       red: '#DC2626',
       green: '#34D399',
     },
+    maxWidth: {
+      '200px': '200px',
+    },
+    screens: {
+      xs: '400px',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
+    },
   },
   variants: {},
   plugins: [],

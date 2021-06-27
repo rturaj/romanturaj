@@ -1,5 +1,5 @@
 <template>
-  <div class="flex text-4xl py-4">
+  <div class="flex text-2xl lg:text-4xl py-4">
     <div v-for="(icon, key) in icons" :key="key" class="mr-4">
       <a target="_blank" :href="icon.href">
         <i :class="icon.className"></i>
@@ -19,11 +19,11 @@ export default {
         },
         {
           className: 'devicon-linkedin-plain colored',
-          href: 'https://github.com/rturaj',
+          href: 'https://www.linkedin.com/in/roman-turaj/',
         },
         {
           className: 'devicon-facebook-plain colored',
-          href: 'https://github.com/rturaj',
+          href: 'https://www.facebook.com/romek.turaj',
         },
       ],
     }

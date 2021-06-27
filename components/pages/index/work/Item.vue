@@ -1,7 +1,5 @@
 <template>
-  <a
-    :href="item.url"
-    target="_blank"
+  <div
     class="
       rounded
       bg-white
@@ -15,7 +13,7 @@
       duration-300
       ease-in-out
     "
-    style="min-width: 300px; max-width: 370px"
+    style="min-height: 420px; max-width: 370px"
   >
     <img :src="item.img" style="width: 100%; height: 180px" />
     <div class="px-4">
@@ -28,7 +26,9 @@
         <div>{{ item.tools }}</div>
       </div>
     </div>
-    <div
+    <a
+      :href="item.url"
+      target="_blank"
       v-if="item.url"
       class="
         absolute
@@ -44,8 +44,8 @@
       "
     >
       <img src="/launch.svg" />
-    </div>
-  </a>
+    </a>
+  </div>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-4">
+  <div class="custom-container">
     <Header />
     <Nuxt />
     <Footer />
@@ -16,4 +16,10 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.custom-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+</style>

@@ -1,16 +1,23 @@
 <template>
-  <section class="p-8 border-gray border-b">
+  <section class="px-2 md:px-4 lg:px-8 border-gray border-b py-8 lg:py-16">
     <h2 class="text-3xl leading-snug font-light text-center pb-8">Work</h2>
-    <div class="flex flex-wrap">
+    <VueSlickCarousel v-bind="settings">
       <item v-for="item in items" :key="item.title" :item="item" />
-    </div>
+    </VueSlickCarousel>
   </section>
 </template>
 
 <script>
 import Item from './Item'
+import VueSlickCarousel from 'vue-slick-carousel'
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+import slick from '@/mixins/slick'
+
 import data from './data.json'
 export default {
+  mixins: [slick],
+
   data() {
     return {
       items: data.sort((a, b) => b.rate - a.rate),
@@ -19,6 +26,7 @@ export default {
 
   components: {
     Item,
+    VueSlickCarousel,
   },
 }
 </script>

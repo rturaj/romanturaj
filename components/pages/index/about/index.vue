@@ -1,14 +1,14 @@
 <template>
-  <section class="p-8 border-b border-gray">
+  <section class="px-2 md:px-4 lg:px-8 border-gray border-b py-8 lg:py-16">
     <h2 class="text-3xl leading-snug font-light text-center pb-4">About me</h2>
-    <div class="flex justify-between my-8 items-center">
-      <!-- <div style="min-width: 50%">
-        <img src="/about.png" class="rounded-3xl" />
-      </div> -->
-      <div class="img-bg bg-gray mt-24 mr-32" style="min-width: 35%">
-        <img src="/about.png" class="-mt-32" />
+    <div class="flex justify-between my-2 lg:my-8 items-center">
+      <div
+        class="img-bg bg-gray mt-16 mr-8 hidden lg:block"
+        style="min-width: 35%"
+      >
+        <img src="/about.png" class="-mt-16" />
       </div>
-      <div class="text-justify">
+      <div class="text-justify max-w-1/2">
         <p class="py-2">
           I'm Fullstack Developer working mainly in
           <strong>Javascript</strong> and less in <strong>Typescript</strong>.

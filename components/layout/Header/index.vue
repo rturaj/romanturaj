@@ -14,7 +14,7 @@
     "
   >
     <logo />
-    <navigation />
+    <navigation class="hidden md:flex" />
   </header>
 </template>
 <script>

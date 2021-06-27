@@ -1,14 +1,14 @@
 <template>
-  <section class="p-8">
+  <section class="px-2 md:px-4 lg:px-8 border-gray border-b py-8 lg:py-16">
     <h2 class="text-3xl leading-snug font-light text-center pb-8">
       Let's build something together!
     </h2>
-    <h4 class="text-2xl text-center pb-6">hello@romanturaj.com</h4>
+    <h4 class="text-2xl text-center pb-12 pt-6">hello@romanturaj.com</h4>
 
     <form
       v-if="!sent"
       id="contact-me"
-      class="w-full mx-auto max-w-3xl text-gray-700"
+      class="w-full mx-auto max-w-2xl"
       @submit.prevent="send"
     >
       <hr class="text-gray mb-8" />
@@ -57,7 +57,7 @@
           'border-green': !$v.sendData.message.$invalid,
         }"
         type="text"
-        rows="5"
+        rows="10"
         placeholder="Message"
       ></textarea>
       <div class="text-center">

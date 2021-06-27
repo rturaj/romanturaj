@@ -12,3 +12,13 @@ html {
 img {
   max-width: 100%;
 }
+.slick-dots li button:before {
+  font-size: 12px !important;
+}
+.slick-track {
+  margin-bottom: 20px !important;
+}
+
+* {
+  scroll-margin-top: 80px;
+}

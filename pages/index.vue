@@ -1,10 +1,8 @@
 <template>
   <div>
-    <intro  id="intro"/>
-
-    <work  id="work"/>
+    <intro id="intro" />
     <about id="about" />
-
+    <work id="work" />
     <testimonials id="testimonials" />
     <contact id="contact" />
   </div>
@@ -18,18 +16,21 @@ import Testimonials from '../components/pages/index/testimonials'
 import Contact from '../components/pages/index/contact'
 export default {
   components: {
-    Intro, About, Work,Testimonials, Contact
+    Intro,
+    About,
+    Work,
+    Testimonials,
+    Contact,
   },
   head: {
-    title: "Roman Turaj",
-    meta: [{
-        name: "description",
-        content: "Fullstack Developer working in Vue.js and Node.js"
-    }]
-     
-  
-    
-  }
+    title: 'Roman Turaj',
+    meta: [
+      {
+        name: 'description',
+        content: 'Fullstack Developer working in Vue.js and Node.js',
+      },
+    ],
+  },
 }
 </script>
 
