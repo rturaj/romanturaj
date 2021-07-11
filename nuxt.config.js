@@ -1,18 +1,6 @@
 export default {
-  /*
-   ** Nuxt rendering mode
-   ** See https://nuxtjs.org/api/configuration-mode
-   */
-  mode: 'universal',
-  /*
-   ** Nuxt target
-   ** See https://nuxtjs.org/api/configuration-target
-   */
   target: 'static',
-  /*
-   ** Headers of the page
-   ** See https://nuxtjs.org/api/configuration-head
-   */
+  mode: 'spa',
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -34,7 +22,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [{ src: '~/plugins/vuelidate.js', clientOnly: true }],
+  plugins: [{ src: '~/plugins/vuelidate.js' }],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -50,7 +38,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: [['@nuxtjs/google-tag-manager', { id: 'G-R34VKNJV0Y' }]],
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/

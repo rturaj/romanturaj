@@ -3,7 +3,9 @@
     <h2 class="text-3xl leading-snug font-light text-center pb-8">
       Let's build something together!
     </h2>
-    <h4 class="text-2xl text-center pb-12 pt-6">hello@romanturaj.com</h4>
+    <p class="text-2xl text-center pb-6 sm:pb-12 sm:pt-6">
+      hello@romanturaj.com
+    </p>
 
     <form
       v-if="!sent"

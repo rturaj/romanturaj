@@ -13,38 +13,61 @@
       duration-300
       ease-in-out
     "
-    style="min-height: 420px; max-width: 370px"
+    style="min-height: 410px; max-width: 370px"
   >
-    <img :src="item.img" style="width: 100%; height: 180px" />
+    <div style="height: 150px">
+      <img :src="item.img" :alt="item.title" class="w-full" />
+    </div>
     <div class="px-4">
       <h3 class="mt-4 text-center font-semibold text-lg">{{ item.title }}</h3>
       <p class="py-2 text-sm text-justify" style="min-height: 120px">
         {{ item.description }}
       </p>
       <div class="py-4 text-xs flex items-center">
-        <div class="mr-2"><img src="/tool.svg" /></div>
+        <div class="mr-2"><img src="/tool.svg" alt="tools-icon" /></div>
         <div>{{ item.tools }}</div>
       </div>
     </div>
-    <a
-      :href="item.url"
-      target="_blank"
-      v-if="item.url"
-      class="
-        absolute
-        top-0
-        right-0
-        m-4
-        bg-white
-        border
-        p-4
-        flex
-        focus:outline-none
-        rounded-full
-      "
-    >
-      <img src="/launch.svg" />
-    </a>
+    <template v-if="item.url">
+      <a
+        :href="item.url"
+        rel="noopener"
+        :aria-label="item.title"
+        target="_blank"
+        v-if="!item.waiting"
+        class="
+          absolute
+          top-0
+          right-0
+          m-4
+          bg-white
+          border
+          p-4
+          flex
+          focus:outline-none
+          rounded-full
+        "
+      >
+        <img src="/launch.svg" alt="launch-icon" />
+      </a>
+      <div
+        v-else
+        class="
+          absolute
+          top-0
+          right-0
+          m-4
+          bg-white
+          border
+          p-4
+          flex
+          focus:outline-none
+          rounded-full
+        "
+      >
+        <img src="/hourglass.svg" alt="hourglass-icon" />
+      </div>
+    </template>
   </div>
 </template>
 

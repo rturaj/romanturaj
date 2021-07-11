@@ -2,65 +2,60 @@
   {
     "title": "Luvli.pl",
     "url": "https://luvli.pl/",
-    "img": "/luvli.png",
-    "description": "The e-commerce platform for ordering personalized jewelry. Backend managing offers, orders and integrations with external services such as payments and shipment, admin dashboard and client website.",
+    "img": "/luvli.webp",
+    "description": "the e-commerce platform for ordering personalized jewelry. Backend managing offers, orders and integrations with external services such as payments and shipment + frontend apps - admin dashboard and client website.",
     "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, TailwindCSS, Vuetify",
-    "rate": 8,
-    "categories": ["public"]
+    "rate": 8
   },
   {
     "title": "Auroria.pl",
     "url": "https://auroria.pl/",
-    "img": "/auroria.png",
-    "description": "The most complex project I've ever made. E-commerce ecosystem including backend microservices for managing warehouse, orders, offers, 3D configurator, post-sales, blog, authorization and frontend apps - admin dashboard and client website.",
+    "img": "/auroria.webp",
+    "description": "The e-commerce ecosystem including backend microservices for managing warehouse, orders, offers, 3D configurator, post-sales, blog, authorization + frontend apps - admin dashboard and client website.",
     "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, TailwindCSS, Vuetify, Three.js",
     "rate": 10,
-    "categories": ["public"]
+    "waiting": true
   },
   {
     "title": "Ringeo.pl",
     "url": "https://ringeo.pl/",
-    "img": "/ringeo.png",
+    "img": "/ringeo.webp",
     "description": "The comparision tool for engagement rings selling by Polish jewelers. Backend including scrapping from jewelery websites and searching offers + client website.",
     "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, Vuetify",
     "rate": 7,
-    "categories": ["public"]
+    "waiting": true
   },
   {
     "title": "Healthcare Hireos",
     "url": "https://github.com/healthcare-hireos",
-    "img": "/healthcare-hireos.png",
+    "img": "/healthcare-hireos.webp",
     "description": "The thesis project. The hiring platform for healthcare workers using location presentation on the maps. Including REST API, admin dashboard and client website. The project was published on Github.",
     "tools": "Node.js, Typescript, Nest.js, TypeORM, PostgreSQL, Next.js, TailwindCSS, MaterialUI",
-    "rate": 7,
-    "categories": ["open-source"]
+    "rate": 7
   },
   {
     "title": "Piamarket.sk",
     "url": "https://piamarket.sk/",
-    "img": "/piamarket.png",
+    "img": "/piamarket.webp",
     "description": "The frontend of automotive marketplace for used cars including presentation and searching of cars offers. Prepared for Porsche Interauto Slovakia.",
     "tools": "Nuxt.js, SCSS",
-    "rate": 5,
-    "categories": ["public"]
+    "rate": 5
   },
   {
     "title": "Tikitaka.pl",
     "url": "https://tikitaka.pl/",
-    "img": "/tikitaka.png",
+    "img": "/tikitaka.webp",
     "description": "The frontend of booking system for ski trips including presentation of hotels, ski resorts, additional services.",
     "tools": "Vue.js, SCSS",
-    "rate": 4,
-    "categories": ["public"]
+    "rate": 4
   },
   {
     "title": "Audi Sales App",
     "url": null,
-    "img": "/audi.png",
+    "img": "/audi.webp",
     "description": "The frontend of internal app for Audi to managing sales of new cars in Poland. Based on data modification by spreadsheets rendered in the browser.",
     "tools": "Vue.js, SCSS",
-    "rate": 3,
-    "categories": ["private"]
+    "rate": 3
   },
   {
     "title": "VGP Training App",
@@ -68,16 +63,14 @@
     "img": "/vgp.jpg",
     "description": "The internal system for Volkswagen Group Poland to conducting interactive trainings for car dealers. During driving cars they have to answer question and complete tasks. I've made admin dashboard of this system.",
     "tools": "Vue.js, SCSS",
-    "rate": 3,
-    "categories": ["private"]
+    "rate": 3
   },
   {
     "title": "VGP Training Academy platform",
     "url": null,
-    "img": "/pas.png",
+    "img": "/pas.webp",
     "description": "The support of creating frontend one of the key apps of Volkswagen Group Poland - 'Training Academy platform' - the app for managing the employee development process. ",
     "tools": "Vue.js, SCSS",
-    "rate": 2,
-    "categories": ["private"]
+    "rate": 2
   }
 ]

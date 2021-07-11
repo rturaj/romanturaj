@@ -12,6 +12,11 @@ html {
 img {
   max-width: 100%;
 }
+.slick-slide > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .slick-dots li button:before {
   font-size: 12px !important;
 }

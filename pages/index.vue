@@ -23,6 +23,9 @@ export default {
     Contact,
   },
   head: {
+    htmlAttrs: {
+      lang: 'en'
+    },
     title: 'Roman Turaj',
     meta: [
       {

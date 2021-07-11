@@ -1,5 +1,5 @@
 <template>
-  <button :href="href" :class="btnClass" @click="$emit('click')">
+  <button :class="btnClass" @click="$emit('click')">
     <slot />
   </button>
 </template>
@@ -10,12 +10,11 @@ export default {
     mode: {
       default: 'primary',
     },
-    href: {},
   },
   computed: {
     btnClass() {
       let result =
-        'px-8 py-2 text-sm lg:text-base rounded-full transition duration-300 ease-in-out border focus:outline-none '
+        'px-3 xs:px-4 sm:px-8 py-1 sm:py-2 text-sm lg:text-base rounded-2xl transition duration-300 ease-in-out border focus:outline-none '
       if (this.mode === 'primary') {
         result += 'bg-black text-white'
       } else {

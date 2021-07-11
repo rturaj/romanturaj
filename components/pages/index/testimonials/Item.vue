@@ -17,6 +17,7 @@
     <div style="width: 80px" class="text-center mx-auto">
       <img
         :src="item.img"
+        :alt="item.name"
         style="width: 100%; height: 100%"
         class="rounded-full"
       />

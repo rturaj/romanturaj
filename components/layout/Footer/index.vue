@@ -5,7 +5,12 @@
     <div>&copy; 2021 Roman Turaj</div>
     <div class="flex text-xl">
       <div v-for="(icon, key) in icons" :key="key" class="mr-2">
-        <a target="_blank" :href="icon.href">
+        <a
+          target="_blank"
+          :href="icon.href"
+          :aria-label="icon.name"
+          rel="noopener"
+        >
           <i :class="icon.className"></i>
         </a>
       </div>
@@ -18,14 +23,17 @@ export default {
     return {
       icons: [
         {
+          name: 'Github',
           className: 'devicon-github-plain ',
           href: 'https://github.com/rturaj',
         },
         {
+          name: 'Linkedin',
           className: 'devicon-linkedin-plain',
           href: 'https://www.linkedin.com/in/roman-turaj/',
         },
         {
+          name: 'Facebook',
           className: 'devicon-facebook-plain',
           href: 'https://www.facebook.com/romek.turaj',
         },
