@@ -13,13 +13,7 @@
         cursor-pointer
       "
     >
-      <div
-        @click="scrollTo(item.to)"
-        :class="{
-          'border-b-2 pb-1':
-            scrollPosition > item.top && scrollPosition < item.bottom,
-        }"
-      >
+      <div @click="scrollTo(item.to)">
         {{ item.label }}
       </div>
     </div>
@@ -48,23 +42,12 @@ export default {
           to: 'contact',
         },
       ],
-      scrollPosition: null,
     }
   },
   methods: {
     scrollTo(id) {
       document.getElementById(id).scrollIntoView()
     },
-  },
-  mounted() {
-    window.addEventListener('scroll', () => {
-      this.scrollPosition = window.scrollY - 60
-    })
-    this.menuItems.forEach((el) => {
-      const rect = document.getElementById(el.to).getBoundingClientRect()
-      el.top = rect.top
-      el.bottom = rect.bottom
-    })
   },
 }
 </script>

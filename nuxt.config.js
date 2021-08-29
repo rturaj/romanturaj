@@ -1,6 +1,5 @@
 export default {
   target: 'static',
-  mode: 'spa',
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -38,10 +37,12 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [['@nuxtjs/google-tag-manager', { id: 'G-R34VKNJV0Y' }]],
+  modules: ['@nuxtjs/gtm'],
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
-   */
+   */ gtm: {
+    id: 'G-R34VKNJV0Y',
+  },
   build: {},
 }

@@ -18,12 +18,11 @@
   },
   {
     "title": "Ringeo.pl",
-    "url": "https://ringeo.pl/",
+    "url": "http://ringeo.pl/",
     "img": "/ringeo.webp",
     "description": "The comparision tool for engagement rings selling by Polish jewelers. Backend including scrapping from jewelery websites and searching offers + client website.",
     "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, Vuetify",
-    "rate": 7,
-    "waiting": true
+    "rate": 7
   },
   {
     "title": "Healthcare Hireos",

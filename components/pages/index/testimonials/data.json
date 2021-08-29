@@ -13,18 +13,33 @@
     "img": "/p_podjacki.jpg",
     "rate": 2
   },
-  {
-    "name": "Jakub Karpisiak",
-    "position": "Frontend Developer at intive",
-    "content": "Roman really knows how to work with a team. His strong self-motivation and learning capabilities make him a great developer to work with.",
-    "img": "/j_karpisiak.jpg",
-    "rate": 1
-  },
+
   {
     "name": "Mariusz Bedziecha",
     "position": "Senior Fullstack Developer at Webwizards",
     "content": "Roman is a thorough and ambitious specialist. He is well versed in web technologies, with great determination developing his skills to build better products. His soft skills allow him to create a good atmosphere in teams where he works. I had a chance to work with Roman on several projects and it was always a solid and effective job.",
     "img": "/m_bedziecha.jpg",
     "rate": 7
+  },
+  {
+    "name": "Alicja Mańkowska",
+    "position": "Project Manager at Webwizards",
+    "content": "Roman is a very easy-going, creative, diligent, and focused developer. Working with him was enjoyable and inspiring because he does not only bring knowledge to the table but also insight and innovative solutions. He can work within a team as well as independently schedule and carry out given tasks. I hope we will have the pleasure of working again in the future.",
+    "img": "/a_mankowska.jpg",
+    "rate": 5
+  },
+  {
+    "name": "Angelika Gazda",
+    "position": "Head of Marketing at Webwizards",
+    "content": "Roman is a great specialist who completes all tasks quickly and properly. He always try to put business needs first. He is very ambitious, open-minded, always ready to learn new things. We made together tens of campaings for automotive brands like Audi, Volkswagen, Skoda and Porsche.",
+    "img": "/a_gazda.jpg",
+    "rate": 6
+  },
+  {
+    "name": "Lukasz Siminski",
+    "position": "CTO at Auroria",
+    "content": "Roman has worked for Auroria for over a year. He was part of a team in three main projects: the new e-commerce system with 3D configurator of our products, e-shop for our sub-brand Luvli and price comparison tool for diamond rings. Roman is highly motivated and extremely focused on main goals. His strength is quick learning of new technologies and the ability to look at the project as a whole. I’m satisfied with the quality of work that Roman has provided",
+    "img": "/l_siminski.jpg",
+    "rate": 10
   }
 ]

@@ -32,7 +32,7 @@
       </div>
     </div>
     <div
-      class="img-bg bg-gray mt-8 sm:mt-16 md:mt-32 w-2/4"
+      class="img-bg bg-gray mt-8 sm:mt-16 md:mt-32 w-2/4 duration-1000"
       style="min-width: 100px"
     >
       <img
@@ -54,7 +54,7 @@ export default {
   },
   methods: {
     scrollToAbout() {
-      document.getElementById('#about').scrollIntoView()
+      document.getElementById('about').scrollIntoView()
     },
   },
 }

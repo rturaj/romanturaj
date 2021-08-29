@@ -12,10 +12,11 @@
       transition
       duration-300
       ease-in-out
+      mb-4
     "
-    style="min-height: 410px; max-width: 370px"
+    style="min-height: 420px; max-width: 370px"
   >
-    <div style="height: 150px">
+    <div style="min-height: 120px">
       <img :src="item.img" :alt="item.title" class="w-full" />
     </div>
     <div class="px-4">
