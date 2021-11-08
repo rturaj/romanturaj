@@ -2,7 +2,7 @@
   <footer
     class="py-4 border-t border-gray z-50 text-sm flex justify-between px-1"
   >
-    <div>&copy; 2021 Roman Turaj</div>
+    <div>2021 Roman Turaj</div>
     <div class="flex text-xl">
       <div v-for="(icon, key) in icons" :key="key" class="mr-2">
         <a
@@ -11,7 +11,7 @@
           :aria-label="icon.name"
           rel="noopener"
         >
-          <i :class="icon.className"></i>
+          <img :src="icon.img" :alt="icon.name" class="h-4" />
         </a>
       </div>
     </div>
@@ -24,17 +24,17 @@ export default {
       icons: [
         {
           name: 'Github',
-          className: 'devicon-github-plain ',
+          img: '/gh.svg',
           href: 'https://github.com/rturaj',
         },
         {
           name: 'Linkedin',
-          className: 'devicon-linkedin-plain',
+          img: '/ln.svg',
           href: 'https://www.linkedin.com/in/roman-turaj/',
         },
         {
           name: 'Facebook',
-          className: 'devicon-facebook-plain',
+          img: '/fb.svg',
           href: 'https://www.facebook.com/romek.turaj',
         },
       ],

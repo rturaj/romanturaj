@@ -18,8 +18,11 @@ img {
   align-items: center;
 }
 .slick-dots li button:before {
-  font-size: 12px !important;
+  font-size: 70px !important;
+  top: -30px !important;
+  content: '.' !important;
 }
+
 .slick-track {
   margin-bottom: 20px !important;
 }

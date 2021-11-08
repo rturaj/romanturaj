@@ -7,7 +7,7 @@
         :aria-label="icon.name"
         rel="noopener"
       >
-        <i :class="icon.className"></i>
+        <img :src="icon.img" :alt="icon.name" class="h-8 md:h-10" />
       </a>
     </div>
   </div>
@@ -20,17 +20,17 @@ export default {
       icons: [
         {
           name: 'Github',
-          className: 'devicon-github-plain colored',
+          img: '/gh.svg',
           href: 'https://github.com/rturaj',
         },
         {
           name: 'Linkedin',
-          className: 'devicon-linkedin-plain colored',
+          img: '/ln.svg',
           href: 'https://www.linkedin.com/in/roman-turaj/',
         },
         {
           name: 'Facebook',
-          className: 'devicon-facebook-plain colored',
+          img: '/fb.svg',
           href: 'https://www.facebook.com/romek.turaj',
         },
       ],

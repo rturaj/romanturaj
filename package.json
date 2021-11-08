@@ -13,7 +13,6 @@
   "dependencies": {
     "@nuxtjs/gtm": "^2.4.0",
     "axios": "^0.21.1",
-    "devicon": "^2.11.0",
     "nuxt": "^2.13.0",
     "vue-slick-carousel": "^1.0.6",
     "vuelidate": "^0.7.6"

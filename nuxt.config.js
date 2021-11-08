@@ -1,22 +1,32 @@
 export default {
   target: 'static',
   head: {
-    title: process.env.npm_package_name || '',
+    charset: 'utf-8',
+    htmlAttrs: {
+      lang: 'en',
+    },
+    title: 'Roman Turaj',
     meta: [
-      { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || '',
+        hid: 'description',
+        content: 'Fullstack Developer working in Vue.js and Node.js',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'canonical',
+        href: 'https://romanturaj.com',
+      },
+    ],
   },
+
   /*
    ** Global CSS
    */
-  css: ['devicon/devicon.min.css'],
+  css: [],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins

@@ -19,15 +19,14 @@
         Fullstack Developer
       </h2>
       <icons />
-      <div class="flex flex-wrap -ml-1">
-        <btn class="m-1 font-bold hidden sm:block" @click="scrollToAbout">
+      <div class="flex flex-wrap -ml-2">
+        <btn class="m-2 font-bold hidden sm:block" @click="scrollToAbout">
           MEET ME
         </btn>
         <a href="/resume.pdf" target="_blank" aria-label="resume">
-          <btn mode="secondary" class="m-1 font-bold hidden sm:block">
+          <btn mode="secondary" class="mt-2 sm:m-2 font-bold block">
             GET MY RESUME
           </btn>
-          <btn class="font-bold sm:hidden"> GET MY RESUME </btn>
         </a>
       </div>
     </div>

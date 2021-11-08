@@ -22,18 +22,6 @@ export default {
     Testimonials,
     Contact,
   },
-  head: {
-    htmlAttrs: {
-      lang: 'en'
-    },
-    title: 'Roman Turaj',
-    meta: [
-      {
-        name: 'description',
-        content: 'Fullstack Developer working in Vue.js and Node.js',
-      },
-    ],
-  },
 }
 </script>
 

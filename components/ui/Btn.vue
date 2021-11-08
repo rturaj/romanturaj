@@ -14,7 +14,7 @@ export default {
   computed: {
     btnClass() {
       let result =
-        'px-3 xs:px-4 sm:px-8 py-1 sm:py-2 text-sm lg:text-base rounded-2xl transition duration-300 ease-in-out border focus:outline-none '
+        'whitespace-normal shadow-2xl	 px-4 sm:px-8 py-2 text-sm lg:text-base rounded-2xl transition duration-500 ease-in-out border border-gray focus:outline-none '
       if (this.mode === 'primary') {
         result += 'bg-black text-white'
       } else {
@@ -26,4 +26,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+button {
+  white-space: nowrap;
+}
+</style>
