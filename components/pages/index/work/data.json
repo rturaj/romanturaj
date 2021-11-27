@@ -13,8 +13,7 @@
     "img": "/auroria.webp",
     "description": "An e-commerce ecosystem including 2 frontend apps - an admin dashboard and a client website, and 10 backend microservices, such as managing a warehouse, orders, offers, a 3D configurator, customer service, and a blog.",
     "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, TailwindCSS, Vuetify, Three.js",
-    "rate": 10,
-    "waiting": true
+    "rate": 10
   },
   {
     "title": "Ringeo.pl",
