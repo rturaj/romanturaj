@@ -23,11 +23,11 @@
         <btn class="m-2 font-bold hidden sm:block" @click="scrollToAbout">
           MEET ME
         </btn>
-        <a href="/resume.pdf" target="_blank" aria-label="resume">
+        <!-- <a href="/resume.pdf" target="_blank" aria-label="resume">
           <btn mode="secondary" class="mt-2 sm:m-2 font-bold block">
             GET MY RESUME
           </btn>
-        </a>
+        </a> -->
       </div>
     </div>
     <div
