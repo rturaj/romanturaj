@@ -13,7 +13,7 @@
     "img": "/auroria.webp",
     "description": "An e-commerce ecosystem including 2 frontend apps - an admin dashboard and a client website, and 10 backend microservices, such as managing a warehouse, orders, offers, a 3D configurator, customer service, and a blog.",
     "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, TailwindCSS, Vuetify, Three.js",
-    "rate": 10
+    "rate": 9
   },
   {
     "title": "Ringeo.pl",
@@ -70,5 +70,29 @@
     "description": "I played a supporting role in creating the frontend of one of the key apps of Volkswagen Group Poland - an  app for managing the employee development process.",
     "tools": "Vue.js, SCSS",
     "rate": 2
+  },
+  {
+    "title": "Lottify",
+    "url": "https://co.lotto.com/",
+    "img": "/lotto.webp",
+    "description": "Backoffice tool for creating & managing shops in different legal territories",
+    "tools": "Typescript, Vue.js",
+    "rate": 7
+  },
+  {
+    "title": "Winfellas",
+    "url": "https://www.winfellas.com/",
+    "img": "/winfellas.webp",
+    "description": "Multiplayer experience for online casinos. You can play with your friends, create rooms, chats and enjoy game together. I created both backend and frontend for this ecosystem.",
+    "tools": "Typescript, Node.js, Vue.js Nest.js, MongoDB, AWS, Vue, TailwindCSS, Pinia",
+    "rate": 9
+  },
+  {
+    "title": "Mazer",
+    "url": "https://panel.mazer.world",
+    "img": "/mazer.webp",
+    "description": "Ecosystem designed to manage metaverse spaces, accounts, organizations, permissions, NFTs, etc. I work at Mazer as one-man army, taking responsibility for the whole web system - central API for all applications and web frontend dashboard.",
+    "tools": "Typescript, Node.js, Vue.js Nest.js, MongoDB, AWS, Vue, TailwindCSS, Pinia",
+    "rate": 10
   }
 ]

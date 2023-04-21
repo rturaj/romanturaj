@@ -41,5 +41,12 @@
     "content": "Roman has worked for Auroria for over a year. He was part of a team in three main projects: the new e-commerce system with 3D configurator of our products, e-shop for our sub-brand Luvli and price comparison tool for diamond rings. Roman is highly motivated and extremely focused on main goals. His strength is quick learning of new technologies and the ability to look at the project as a whole. I'm satisfied with the quality of work that Roman has provided",
     "img": "/l_siminski.jpg",
     "rate": 10
+  },
+  {
+    "name": "Daniel Kłys",
+    "position": "Frontend Developer at Digital Colliers",
+    "content": "Romans attitude always let us deliver our work earlier. His communication skills makes everything easier, he is great developer beyond that! His ambition drives what he does on really high level, he also takes care of whole development process as if it was a key to success and actually.. It is. Couldn't ask for better coworker.",
+    "img": "d_klys.webp",
+    "rate": 7
   }
 ]

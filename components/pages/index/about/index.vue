@@ -45,10 +45,11 @@
           <strong>Volkswagen</strong>, <strong>Porsche</strong> and
           <strong>Skoda</strong>. In 2020 I moved to
           <strong>Auroria Diamonds</strong> - one of the leading e-commerce
-          jewelers in Poland. Since 2022, I have been working at
+          jewelers in Poland. In 2022, I worked at
           <strong>Digital Colliers</strong> - a software house providing
-          solutions for companies from all over the world. I was studing
-          <strong>Computing</strong> at
+          solutions for companies from all over the world. Since 2023 I has been
+          working at <strong>Mazer</strong> contributing to the amazing
+          Metaverse product. I was studing <strong>Computing</strong> at
           <strong> Poznan University of Technology </strong> for 4 years on the
           weekends and I graduaded with a
           <strong>Bachelor of Science</strong> degree. I would say my English

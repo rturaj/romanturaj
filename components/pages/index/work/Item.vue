@@ -16,9 +16,10 @@
     "
     style="min-height: 420px; max-width: 370px"
   >
-    <div style="min-height: 120px">
-      <img :src="item.img" :alt="item.title" class="w-full" />
-    </div>
+    <div
+      :style="{ 'background-image': `url(${item.img})` }"
+      class="h-48 w-full bg-center bg-cover"
+    ></div>
     <div class="px-4">
       <h3 class="mt-4 text-center font-semibold text-lg">{{ item.title }}</h3>
       <p class="py-2 text-sm text-justify" style="min-height: 120px">
