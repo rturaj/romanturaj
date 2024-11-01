@@ -2,7 +2,7 @@
   <footer
     class="py-4 border-t border-gray z-50 text-sm flex justify-between px-1"
   >
-    <div>2021-2023 Roman Turaj</div>
+    <div>2021 - {{ year }} Roman Turaj</div>
     <div class="flex text-xl">
       <div v-for="(icon, key) in icons" :key="key" class="mr-2">
         <a
@@ -21,6 +21,7 @@
 export default {
   data() {
     return {
+      year: new Date().getFullYear(),
       icons: [
         {
           name: 'Github',

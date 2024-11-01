@@ -16,18 +16,18 @@
         Roman Turaj
       </h1>
       <h2 class="text-base xs:text-xl sm:text-3xl leading-snug font-light">
-        Fullstack Developer
+        Senior Fullstack Developer
       </h2>
       <icons />
       <div class="flex flex-wrap -ml-2">
         <btn class="m-2 font-bold hidden sm:block" @click="scrollToAbout">
-          MEET ME
+          Meet me
         </btn>
-        <!-- <a href="/resume.pdf" target="_blank" aria-label="resume">
+        <a href="/resume.pdf" target="_blank" aria-label="resume">
           <btn mode="secondary" class="mt-2 sm:m-2 font-bold block">
-            GET MY RESUME
+            Get my resume
           </btn>
-        </a> -->
+        </a>
       </div>
     </div>
     <div

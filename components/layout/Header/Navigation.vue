@@ -8,8 +8,10 @@
         font-semibold
         uppercase
         text-sm
-        hover:border-b-2
-        hover:pb-1
+        hover:border-black
+        py-2
+        border-b-2
+        border-white
         cursor-pointer
       "
     >
@@ -26,16 +28,16 @@ export default {
     return {
       menuItems: [
         {
-          label: 'about',
-          to: 'about',
-        },
-        {
           label: 'work',
           to: 'work',
         },
         {
           label: 'testimonials',
           to: 'testimonials',
+        },
+        {
+          label: 'about',
+          to: 'about',
         },
         {
           label: 'contact',

@@ -5,7 +5,7 @@
     "img": "/luvli.webp",
     "description": "An e-commerce platform for ordering personalized jewelry - a backend and 2 frontend apps - an admin dashboard and a client website.",
     "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, TailwindCSS, Vuetify",
-    "rate": 8
+    "rate": 7
   },
   {
     "title": "Auroria.pl",
@@ -85,7 +85,7 @@
     "img": "/winfellas.webp",
     "description": "Multiplayer experience for online casinos. You can play with your friends, create rooms, chats and enjoy game together. I created both backend and frontend for this ecosystem.",
     "tools": "Typescript, Node.js, Vue.js Nest.js, MongoDB, AWS, Vue, TailwindCSS, Pinia",
-    "rate": 9
+    "rate": 8
   },
   {
     "title": "Mazer",
@@ -94,5 +94,13 @@
     "description": "Ecosystem designed to manage metaverse spaces, accounts, organizations, permissions, NFTs, etc. I work at Mazer as one-man army, taking responsibility for the whole web system - central API for all applications and web frontend dashboard.",
     "tools": "Typescript, Node.js, Vue.js Nest.js, MongoDB, AWS, Vue, TailwindCSS, Pinia",
     "rate": 10
+  },
+  {
+    "title": "Ramp Network",
+    "url": "https://ramp.network",
+    "img": "/ramp.webp",
+    "description": "A web app facilitating FIAT-to-crypto and crypto-to-FIAT exchanges, serving thousands of users daily and handling millions in monthly transaction volume.",
+    "tools": "Typescript, Node.js, Nest.js, PostgreSQL, React.js, Mobx",
+    "rate": 9
   }
 ]

@@ -12,7 +12,7 @@
       duration-300
       ease-in-out
     "
-    style="min-height: 380px; max-width: 380px"
+    style="min-height: 410px; max-width: 380px"
   >
     <div style="width: 80px" class="text-center mx-auto">
       <img

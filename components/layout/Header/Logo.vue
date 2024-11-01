@@ -4,8 +4,8 @@
       <img src="/header.webp" style="width: 60px; height: 60px" alt="logo" />
     </div>
     <div>
-      <div class="font-bold leading-tight mt-2">Roman Turaj</div>
-      <div class="text-xs">Fullstack Developer</div>
+      <div class="font-bold leading-tight mt-3">Roman Turaj</div>
+      <div class="text-xs">Senior Fullstack Developer</div>
     </div>
   </div>
 </template>

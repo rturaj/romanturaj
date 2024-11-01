@@ -10,52 +10,39 @@
       </div>
       <div class="text-justify max-w-1/2">
         <p class="py-2">
-          I'm Fullstack Developer working mainly in
-          <strong>Javascript</strong> and less in <strong>Typescript</strong>.
-          My primary frontend framework is <strong>Vue.js</strong>, but I'm also
-          able to work with <strong>React.js</strong>. I'm familiar with state
-          management libraries - <strong>Vuex</strong> and
-          <strong>Redux</strong>. I know <strong>SSR</strong> and its frameworks
-          - <strong>Nuxt</strong> and <strong>Next</strong>. I'm fluent with
-          <strong>CSS</strong>, tools related to it like
-          <strong>SCSS</strong> or <strong>TailwindCSS</strong> and UI libraries
-          such as <strong>Vuetify</strong> and <strong>Material UI</strong>. I
-          also know basics of <strong>3D</strong> rendering in the browsers and
-          <strong>Three.js</strong> framework.
+          Experienced Fullstack Developer with a strong focus on building
+          scalable, high-performance applications that meet the demands of
+          modern users. With in-depth expertise in Node.js, React, and Vue.js,
+          I've successfully contributed to a diverse range of projects that span
+          multiple industries. My work includes developing a sophisticated
+          crypto-to-FIAT exchange application with stringent security protocols,
+          creating e-commerce platforms that feature advanced 3D product
+          rendering for an interactive shopping experience, and delivering
+          digital solutions for prominent automotive brands in Poland that
+          enhance customer engagement and streamline operations. Additionally, I
+          have developed immersive metaverse experiences, integrating
+          cutting-edge technology to push the boundaries of virtual interaction
+          and user immersion.
         </p>
         <p class="py-2">
-          On the backend I use <strong>Node.js</strong> and its frameworks -
-          <strong>Express.js</strong>, <strong>Nest.js</strong> and
-          <strong>Serverless</strong>. I know relational databases such as
-          <strong>MySQL</strong>, <strong>PostgreSQL</strong> and non-relational
-          databases like - <strong>MongoDB</strong>. To work with them I use
-          ORMs - <strong>Sequelize</strong>, <strong>TypeORM</strong> and ODM -
-          <strong>Mongoose</strong>. I use <strong>Jest.js</strong> for testing,
-          <strong>Git</strong> for version control, <strong>Swagger</strong> for
-          API documentation, <strong>Docker</strong> for containerization and
-          <strong>Jenkins</strong> for CD/CI. This is what I can do at the
-          moment - however, my priority is to
-          <strong> meet business needs</strong>, so I'm open to learning
-          everything which allows me to achieve that.
+          Skilled in end-to-end development, I handle the complete software
+          lifecycle, ensuring efficient, robust backends and responsive,
+          intuitive frontends that are as functional as they are user-friendly.
+          Whether working in dynamic, cross-functional teams or taking the lead
+          on individual tasks, I excel in collaborative environments and thrive
+          when given the opportunity to bring projects from concept to
+          completion. My passion lies in crafting impactful, user-centered
+          solutions that not only meet business objectives but also elevate user
+          satisfaction and drive measurable growth.
         </p>
         <p class="py-2">
-          I started my profesional career in 2018, when I joined
-          <strong>Webwizards</strong> - an agency working for the biggest
-          automotive brands like <strong>Audi</strong>,
-          <strong>Volkswagen</strong>, <strong>Porsche</strong> and
-          <strong>Skoda</strong>. In 2020 I moved to
-          <strong>Auroria Diamonds</strong> - one of the leading e-commerce
-          jewelers in Poland. In 2022, I worked at
-          <strong>Digital Colliers</strong> - a software house providing
-          solutions for companies from all over the world. Since 2023 I has been
-          working at <strong>Mazer</strong> contributing to the amazing
-          Metaverse product. I was studing <strong>Computing</strong> at
-          <strong> Poznan University of Technology </strong> for 4 years on the
-          weekends and I graduaded with a
-          <strong>Bachelor of Science</strong> degree. I would say my English
-          level is <strong>B2+</strong>, but I never passed any certification
-          which could confirm it. I love programming and I spend time
-          <strong>learning every day</strong>.
+          With a meticulous approach to problem-solving, I continually stay
+          updated with industry trends and emerging technologies, allowing me to
+          integrate the latest advancements into my work. I am dedicated to
+          optimizing performance, enhancing user engagement, and ensuring
+          scalability to support evolving needs. Driven by a commitment to
+          quality and innovation, I aim to create meaningful digital experiences
+          that empower users and deliver long-term value to clients.
         </p>
       </div>
     </div>

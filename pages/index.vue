@@ -1,9 +1,9 @@
 <template>
   <div>
     <intro id="intro" />
-    <about id="about" />
     <work id="work" />
     <testimonials id="testimonials" />
+    <about id="about" />
     <contact id="contact" />
   </div>
 </template>

@@ -43,10 +43,31 @@
     "rate": 10
   },
   {
-    "name": "Daniel Kłys",
+    "name": "Daniel Klys",
     "position": "Frontend Developer at Digital Colliers",
     "content": "Romans attitude always let us deliver our work earlier. His communication skills makes everything easier, he is great developer beyond that! His ambition drives what he does on really high level, he also takes care of whole development process as if it was a key to success and actually.. It is. Couldn't ask for better coworker.",
     "img": "d_klys.webp",
     "rate": 7
+  },
+  {
+    "name": "Maciej Mlynarczuk",
+    "position": "Engineering Manager at Ramp Network",
+    "content": "I've worked with Roman for a few months and I'd gladly recommend him as a backend developer. He's always sharing knowledge with the team and looking for ways to improve his own skills. During our time spent working together, Roman presented himself as a skilled programmer who's clearly focused on delivering the right thing quickly while still maintaining a great, solid approach to engineering and architecture. He quickly became an important member of our team and he was always available to help out others. He understands users, product and always keeps them in mind while designing his solutions.",
+    "img": "m_mlynarczuk.webp",
+    "rate": 10
+  },
+  {
+    "name": "Daniel Dutka",
+    "position": "Staff Frontend Engineer at Ramp Network",
+    "content": "I had the pleasure of working with Roman at Ramp Network, where we collaborated on a team focused on conversion and user experience. Roman primarily worked on backend development but also occasionally contributed to frontend tasks. He stands out for his exceptional efficiency, attention to detail, and solid planning skills. Roman consistently delivers on time, with a focus on high quality and user-centric solutions. Working with him was a guarantee of reliability and professionalism. I recommend him to any team looking for a dedicated and skilled specialist.",
+    "img": "d_dutka.webp",
+    "rate": 8
+  },
+  {
+    "name": "Dominika Pozniak",
+    "position": "Product Owner at Mazer",
+    "content": "I worked with Roman for over a year and wholeheartedly recommend collaborating with him. His knowledge, experience, problem-solving skills, precise communication, and attention to detail consistently deliver excellent results. Roman is skilled at explaining complex functionalities in an accessible way, which greatly facilitates teamwork and client collaboration. His professional approach and sense of humor create a positive work environment.",
+    "img": "d_pozniak.webp",
+    "rate": 9
   }
 ]
