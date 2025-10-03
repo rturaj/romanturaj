@@ -1,6 +1,5 @@
 <template>
-  <section
-    class="
+  <section class="
       flex
       border-b
       justify-between
@@ -8,37 +7,29 @@
       border-gray
       items-end
       xs:items-center
-    "
-  >
+    ">
     <div class="p-1 md:mt-16 my-4">
-      <div class="text-2xl lg:text-4xl leading-none font-light">Hello, I'm</div>
-      <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-6xl sm:leading-tight">
+      <div class="text-2xl lg:text-4xl leading-none">Hello, I'm</div>
+      <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-6xl sm:leading-tight font-normal">
         Roman Turaj
       </h1>
-      <h2 class="text-base xs:text-xl sm:text-3xl leading-snug font-light">
+      <h2 class="text-base xs:text-xl sm:text-3xl font-thin">
         Senior Fullstack Developer
       </h2>
       <icons />
       <div class="flex flex-wrap -ml-2">
-        <btn class="m-2 font-bold hidden sm:block" @click="scrollToAbout">
+        <!-- <btn class="m-2 hidden sm:block" @click="scrollToAbout">
           Meet me
-        </btn>
+        </btn> -->
         <a href="/resume.pdf" target="_blank" aria-label="resume">
-          <btn mode="secondary" class="mt-2 sm:m-2 font-bold block">
+          <btn mode="secondary" class="mt-2 sm:m-2  block">
             Get my resume
           </btn>
         </a>
       </div>
     </div>
-    <div
-      class="img-bg bg-gray mt-8 sm:mt-16 md:mt-32 w-2/4 duration-1000"
-      style="min-width: 100px"
-    >
-      <img
-        src="/intro.png"
-        class="-mt-8 sm:-mt-16 md:-mt-32"
-        alt="Roman Turaj - image"
-      />
+    <div class="img-bg bg-gray mt-8 sm:mt-16 md:mt-32 w-2/4 duration-1000" style="min-width: 100px">
+      <img src="/intro.png" class="-mt-8 sm:-mt-16 md:-mt-32" alt="Roman Turaj - image" />
     </div>
   </section>
 </template>
@@ -53,7 +44,7 @@ export default {
   },
   methods: {
     scrollToAbout() {
-      document.getElementById('about').scrollIntoView()
+      document.getElementById('work').scrollIntoView()
     },
   },
 }

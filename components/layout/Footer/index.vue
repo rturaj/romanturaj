@@ -33,11 +33,6 @@ export default {
           img: '/ln.svg',
           href: 'https://www.linkedin.com/in/roman-turaj/',
         },
-        {
-          name: 'Facebook',
-          img: '/fb.svg',
-          href: 'https://www.facebook.com/romek.turaj',
-        },
       ],
     }
   },

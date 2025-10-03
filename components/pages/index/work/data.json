@@ -1,106 +1,102 @@
 [
   {
-    "title": "Luvli.pl",
-    "url": "https://luvli.pl/",
-    "img": "/luvli.webp",
-    "description": "An e-commerce platform for ordering personalized jewelry - a backend and 2 frontend apps - an admin dashboard and a client website.",
-    "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, TailwindCSS, Vuetify",
-    "rate": 7
-  },
-  {
-    "title": "Auroria.pl",
-    "url": "https://auroria.pl/",
-    "img": "/auroria.webp",
-    "description": "An e-commerce ecosystem including 2 frontend apps - an admin dashboard and a client website, and 10 backend microservices, such as managing a warehouse, orders, offers, a 3D configurator, customer service, and a blog.",
-    "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, TailwindCSS, Vuetify, Three.js",
-    "rate": 9
-  },
-  {
-    "title": "Ringeo.pl",
-    "url": "http://ringeo.pl/",
-    "img": "/ringeo.webp",
-    "description": "A comparison tool for engagement rings made by Polish jewelers - a backend scrapping data from external websites and serving them to the frontend app.",
-    "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, Vuetify",
-    "rate": 7
-  },
-  {
-    "title": "Healthcare Hireos",
-    "url": "https://github.com/healthcare-hireos",
-    "img": "/healthcare-hireos.webp",
-    "description": "My thesis project. A hiring platform for healthcare workers using location presentation on digital maps. Including REST API, admin dashboard, and client website. The project was published on Github.",
-    "tools": "Node.js, Typescript, Nest.js, TypeORM, PostgreSQL, Next.js, TailwindCSS, MaterialUI",
-    "rate": 7
-  },
-  {
-    "title": "Piamarket.sk",
-    "url": "https://piamarket.sk/",
-    "img": "/piamarket.webp",
-    "description": "A frontend of the automotive marketplace for used cars including presentation and searching of car offers. Prepared for Porsche Interauto Slovakia.",
-    "tools": "Nuxt.js, SCSS",
-    "rate": 5
-  },
-  {
-    "title": "Tikitaka.pl",
-    "url": "https://tikitaka.pl/",
-    "img": "/tikitaka.webp",
-    "description": "The frontend of a booking system for ski trips including presentation of hotels, ski resorts, and additional services.",
-    "tools": "Vue.js, SCSS",
-    "rate": 4
-  },
-  {
-    "title": "Audi Sales App",
-    "url": null,
-    "img": "/audi.webp",
-    "description": "The frontend of an internal app for Audi to manage sales of new cars in Poland. Based on data modification by spreadsheets rendered in the browser.",
-    "tools": "Vue.js, SCSS",
-    "rate": 3
-  },
-  {
-    "title": "VGP Training App",
-    "url": null,
-    "img": "/vgp.jpg",
-    "description": "The internal system for Volkswagen Group Poland to conduct interactive training for car dealers. While driving cars they have to answer questions and complete tasks. I've made an admin dashboard of this system.",
-    "tools": "Vue.js, SCSS",
-    "rate": 3
-  },
-  {
-    "title": "VGP Training Academy platform",
-    "url": null,
-    "img": "/pas.webp",
-    "description": "I played a supporting role in creating the frontend of one of the key apps of Volkswagen Group Poland - an  app for managing the employee development process.",
-    "tools": "Vue.js, SCSS",
-    "rate": 2
-  },
-  {
-    "title": "Lottify",
-    "url": "https://co.lotto.com/",
-    "img": "/lotto.webp",
-    "description": "Backoffice tool for creating & managing shops in different legal territories",
-    "tools": "Typescript, Vue.js",
-    "rate": 7
-  },
-  {
-    "title": "Winfellas",
-    "url": "https://www.winfellas.com/",
-    "img": "/winfellas.webp",
-    "description": "Multiplayer experience for online casinos. You can play with your friends, create rooms, chats and enjoy game together. I created both backend and frontend for this ecosystem.",
-    "tools": "Typescript, Node.js, Vue.js Nest.js, MongoDB, AWS, Vue, TailwindCSS, Pinia",
-    "rate": 8
-  },
-  {
-    "title": "Mazer",
-    "url": "https://panel.mazer.world",
-    "img": "/mazer.webp",
-    "description": "Ecosystem designed to manage metaverse spaces, accounts, organizations, permissions, NFTs, etc. I work at Mazer as one-man army, taking responsibility for the whole web system - central API for all applications and web frontend dashboard.",
-    "tools": "Typescript, Node.js, Vue.js Nest.js, MongoDB, AWS, Vue, TailwindCSS, Pinia",
-    "rate": 10
+    "title": "HERE Navigation",
+    "url": "https://www.here.com/products/navigation-on-demand",
+    "img": "/here.webp",
+    "description": "A turnkey, cloud-based navigation solution with an SDK variant offering a fully configurable UI/UX and map styling for built-in vehicle platforms in cars like Renault, Dacia, BMW, and Lotus",
+    "tools": "Typescript, Node.js, React.js, RxJS"
   },
   {
     "title": "Ramp Network",
     "url": "https://ramp.network",
     "img": "/ramp.webp",
     "description": "A web app facilitating FIAT-to-crypto and crypto-to-FIAT exchanges, serving thousands of users daily and handling millions in monthly transaction volume.",
-    "tools": "Typescript, Node.js, Nest.js, PostgreSQL, React.js, Mobx",
-    "rate": 9
+    "tools": "Typescript, Node.js, Nest.js, PostgreSQL, React.js, Mobx"
+  },
+  {
+    "title": "Auroria.pl",
+    "url": "https://auroria.pl/",
+    "img": "/auroria.webp",
+    "description": "An e-commerce ecosystem including 2 frontend apps - an admin dashboard and a client website, and 10 backend microservices, such as managing a warehouse, orders, offers, a 3D configurator, customer service, and a blog.",
+    "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, TailwindCSS, Vuetify, Three.js"
+  },
+  {
+    "title": "Mazer",
+    "url": "https://panel.mazer.world",
+    "img": "/mazer.webp",
+    "description": "Ecosystem designed to manage metaverse spaces, accounts, organizations, permissions, NFTs, etc. I work at Mazer as one-man army, taking responsibility for the whole web system - central API for all applications and web frontend dashboard.",
+    "tools": "Typescript, Node.js, Vue.js Nest.js, MongoDB, AWS, Vue, TailwindCSS, Pinia"
+  },
+
+  {
+    "title": "Ringeo.pl",
+    "url": "http://ringeo.pl/",
+    "img": "/ringeo.webp",
+    "description": "A comparison tool for engagement rings made by Polish jewelers - a backend scrapping data from external websites and serving them to the frontend app.",
+    "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, Vuetify"
+  },
+  {
+    "title": "Piamarket.pl",
+    "url": "https://piamarket.pl/",
+    "img": "/piamarket.webp",
+    "description": "A frontend of the automotive marketplace for used cars including presentation and searching of car offers. Prepared for Porsche Interauto Poland.",
+    "tools": "Nuxt.js, SCSS"
+  },
+  {
+    "title": "Luvli.pl",
+    "url": "https://luvli.pl/",
+    "img": "/luvli.webp",
+    "description": "An e-commerce platform for ordering personalized jewelry - a backend and 2 frontend apps - an admin dashboard and a client website.",
+    "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, TailwindCSS, Vuetify"
+  },
+
+  {
+    "title": "Audi Sales App",
+    "url": null,
+    "img": "/audi.webp",
+    "description": "The frontend of an internal app for Audi to manage sales of new cars in Poland. Based on data modification by spreadsheets rendered in the browser.",
+    "tools": "Vue.js, SCSS"
+  },
+  {
+    "title": "VGP Training App",
+    "url": null,
+    "img": "/vgp.jpg",
+    "description": "The internal system for Volkswagen Group Poland to conduct interactive training for car dealers. While driving cars they have to answer questions and complete tasks. I've made an admin dashboard of this system.",
+    "tools": "Vue.js, SCSS"
+  },
+  {
+    "title": "VGP Training Academy platform",
+    "url": null,
+    "img": "/pas.webp",
+    "description": "I played a supporting role in creating the frontend of one of the key apps of Volkswagen Group Poland - an  app for managing the employee development process.",
+    "tools": "Vue.js, SCSS"
+  },
+  {
+    "title": "Winfellas",
+    "url": "https://www.winfellas.com/",
+    "img": "/winfellas.webp",
+    "description": "Multiplayer experience for online casinos. You can play with your friends, create rooms, chats and enjoy game together. I created both backend and frontend for this ecosystem.",
+    "tools": "Typescript, Node.js, Vue.js Nest.js, MongoDB, AWS, Vue, TailwindCSS, Pinia"
+  },
+  {
+    "title": "Lottify",
+    "url": "https://co.lotto.com/",
+    "img": "/lotto.webp",
+    "description": "Backoffice tool for creating & managing shops in different legal territories",
+    "tools": "Typescript, Vue.js"
+  },
+  {
+    "title": "Healthcare Hireos",
+    "url": "https://github.com/healthcare-hireos",
+    "img": "/healthcare-hireos.webp",
+    "description": "My thesis project. A hiring platform for healthcare workers using location presentation on digital maps. Including REST API, admin dashboard, and client website. The project was published on Github.",
+    "tools": "Node.js, Typescript, Nest.js, TypeORM, PostgreSQL, Next.js, TailwindCSS, MaterialUI"
+  },
+  {
+    "title": "Tikitaka.pl",
+    "url": "https://tikitaka.pl/",
+    "img": "/tikitaka.webp",
+    "description": "The frontend of a booking system for ski trips including presentation of hotels, ski resorts, and additional services.",
+    "tools": "Vue.js, SCSS"
   }
 ]

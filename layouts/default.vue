@@ -1,5 +1,5 @@
 <template>
-  <div class="custom-container">
+  <div class="custom-container font-thin">
     <Header />
     <Nuxt />
     <Footer />

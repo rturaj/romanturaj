@@ -5,7 +5,7 @@
       :key="key"
       class="
         px-4
-        font-semibold
+        font-medium
         uppercase
         text-sm
         hover:border-black

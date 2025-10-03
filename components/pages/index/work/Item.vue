@@ -20,13 +20,13 @@
       :style="{ 'background-image': `url(${item.img})` }"
       class="h-48 w-full bg-center bg-cover"
     ></div>
-    <div class="px-4">
+    <div class="px-4 flex flex-col justify-between">
       <h3 class="mt-4 text-center font-semibold text-lg">{{ item.title }}</h3>
       <p class="py-2 text-sm text-justify" style="min-height: 120px">
         {{ item.description }}
       </p>
-      <div class="py-4 text-xs flex items-center">
-        <div class="mr-2"><img src="/tool.svg" alt="tools-icon" /></div>
+      <div class="mt-6 text-xs flex items-center">
+        <div class="mr-2 w-4" style="min-width:30px"><img src="/tool.svg" alt="tools-icon" /></div>
         <div>{{ item.tools }}</div>
       </div>
     </div>
