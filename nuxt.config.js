@@ -8,10 +8,15 @@ export default {
     title: 'Roman Turaj',
     meta: [
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {property: 'og:title', content: 'Roman Turaj'},
+      {property: 'og:description', content: 'Senior Fullstack Developer'},
+      {property: 'og:url', content: 'https://romanturaj.com/'},
+      {property: 'og:image', content: 'https://romanturaj.com/og_image.jpg'},
+      {property: 'og:image:type', content: 'image/jpg'},
       {
         name: 'description',
         hid: 'description',
-        content: 'Fullstack Developer working in Vue.js and Node.js',
+        content: 'Senior Fullstack Developer',
       },
     ],
     link: [
