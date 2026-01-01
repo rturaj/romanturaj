@@ -27,49 +27,12 @@
     "description": "Ecosystem designed to manage metaverse spaces, accounts, organizations, permissions, NFTs, etc. I work at Mazer as one-man army, taking responsibility for the whole web system - central API for all applications and web frontend dashboard.",
     "tools": "Typescript, Node.js, Vue.js Nest.js, MongoDB, AWS, Vue, TailwindCSS, Pinia"
   },
-
-  {
-    "title": "Ringeo.pl",
-    "url": "http://ringeo.pl/",
-    "img": "/ringeo.webp",
-    "description": "A comparison tool for engagement rings made by Polish jewelers - a backend scrapping data from external websites and serving them to the frontend app.",
-    "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, Vuetify"
-  },
   {
     "title": "Piamarket.pl",
     "url": "https://piamarket.pl/",
     "img": "/piamarket.webp",
     "description": "A frontend of the automotive marketplace for used cars including presentation and searching of car offers. Prepared for Porsche Interauto Poland.",
     "tools": "Nuxt.js, SCSS"
-  },
-  {
-    "title": "Luvli.pl",
-    "url": "https://luvli.pl/",
-    "img": "/luvli.webp",
-    "description": "An e-commerce platform for ordering personalized jewelry - a backend and 2 frontend apps - an admin dashboard and a client website.",
-    "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, TailwindCSS, Vuetify"
-  },
-
-  {
-    "title": "Audi Sales App",
-    "url": null,
-    "img": "/audi.webp",
-    "description": "The frontend of an internal app for Audi to manage sales of new cars in Poland. Based on data modification by spreadsheets rendered in the browser.",
-    "tools": "Vue.js, SCSS"
-  },
-  {
-    "title": "VGP Training App",
-    "url": null,
-    "img": "/vgp.jpg",
-    "description": "The internal system for Volkswagen Group Poland to conduct interactive training for car dealers. While driving cars they have to answer questions and complete tasks. I've made an admin dashboard of this system.",
-    "tools": "Vue.js, SCSS"
-  },
-  {
-    "title": "VGP Training Academy platform",
-    "url": null,
-    "img": "/pas.webp",
-    "description": "I played a supporting role in creating the frontend of one of the key apps of Volkswagen Group Poland - an  app for managing the employee development process.",
-    "tools": "Vue.js, SCSS"
   },
   {
     "title": "Winfellas",
@@ -93,8 +56,40 @@
     "tools": "Node.js, Typescript, Nest.js, TypeORM, PostgreSQL, Next.js, TailwindCSS, MaterialUI"
   },
   {
+    "title": "Luvli.pl",
+    "img": "/luvli.webp",
+    "description": "An e-commerce platform for ordering personalized jewelry - a backend and 2 frontend apps - an admin dashboard and a client website.",
+    "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, TailwindCSS, Vuetify"
+  },
+  {
+    "title": "Ringeo.pl",
+    "img": "/ringeo.webp",
+    "description": "A comparison tool for engagement rings made by Polish jewelers - a backend scrapping data from external websites and serving them to the frontend app.",
+    "tools": "Node.js, Express.js, Sequelize.js, MySQL, Nuxt.js, Vuetify"
+  },
+  {
+    "title": "Audi Sales App",
+    "url": null,
+    "img": "/audi.webp",
+    "description": "The frontend of an internal app for Audi to manage sales of new cars in Poland. Based on data modification by spreadsheets rendered in the browser.",
+    "tools": "Vue.js, SCSS"
+  },
+  {
+    "title": "VGP Training App",
+    "url": null,
+    "img": "/vgp.jpg",
+    "description": "The internal system for Volkswagen Group Poland to conduct interactive training for car dealers. While driving cars they have to answer questions and complete tasks. I've made an admin dashboard of this system.",
+    "tools": "Vue.js, SCSS"
+  },
+  {
+    "title": "VGP Training Academy platform",
+    "url": null,
+    "img": "/pas.webp",
+    "description": "I played a supporting role in creating the frontend of one of the key apps of Volkswagen Group Poland - an  app for managing the employee development process.",
+    "tools": "Vue.js, SCSS"
+  },
+  {
     "title": "Tikitaka.pl",
-    "url": "https://tikitaka.pl/",
     "img": "/tikitaka.webp",
     "description": "The frontend of a booking system for ski trips including presentation of hotels, ski resorts, and additional services.",
     "tools": "Vue.js, SCSS"

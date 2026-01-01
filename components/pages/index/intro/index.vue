@@ -18,14 +18,14 @@
       </h2>
       <icons />
       <div class="flex flex-wrap -ml-2">
-        <!-- <btn class="m-2 hidden sm:block" @click="scrollToAbout">
+        <btn class="m-2 hidden sm:block" @click="scrollToAbout">
           Meet me
-        </btn> -->
-        <a href="/resume.pdf" target="_blank" aria-label="resume">
+        </btn>
+        <!-- <a href="/resume.pdf" target="_blank" aria-label="resume">
           <btn mode="secondary" class="mt-2 sm:m-2  block">
             Get my resume
           </btn>
-        </a>
+        </a> -->
       </div>
     </div>
     <div class="img-bg bg-gray mt-8 sm:mt-16 md:mt-32 w-2/4 duration-1000" style="min-width: 100px">
